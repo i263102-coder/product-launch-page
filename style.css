@@ -1,10 +1,4 @@
 
-/* =====================================
-   SNAPPIX MINI - SHARED WEBSITE STYLING
-   Font: Arial
-   Colours: Pastel Pink and Sage Green
-   ===================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -568,5 +562,302 @@ a {
     .features-banner {
         margin: 25px 5%;
         padding: 35px 6%;
+    }
+}
+
+/* =====================================
+   SNAPPIX MINI - PRICING PAGE
+   ===================================== */
+
+/* PRICING HERO */
+
+.pricing-hero {
+    background-color: #FCEEF2;
+    padding: 65px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.pricing-hero-content {
+    flex: 1;
+}
+
+.pricing-hero h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.pricing-hero h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pricing-hero p {
+    font-size: 17px;
+}
+
+.pricing-hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.pricing-hero-image img {
+    width: 100%;
+    max-width: 430px;
+    border-radius: 20px;
+    border: 6px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* PRICING INTRODUCTION */
+
+.pricing-intro {
+    text-align: center;
+    padding: 55px 10%;
+}
+
+.pricing-intro h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.pricing-intro p {
+    max-width: 750px;
+    margin: 0 auto 15px;
+}
+
+/* MAIN PRICING SECTION */
+
+.pricing-section {
+    background-color: #FFFFFF;
+    padding: 60px 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.price-card {
+    background-color: #FCEEF2;
+    width: 100%;
+    max-width: 480px;
+    padding: 40px 35px;
+    border-radius: 20px;
+    border: 2px solid #D98FA8;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    text-align: center;
+}
+
+.price-label {
+    color: #91A88C;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.price-card h2 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.price {
+    color: #D98FA8;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.price-description {
+    color: #666666;
+    font-size: 14px;
+}
+
+.price-divider {
+    height: 2px;
+    background-color: #DCE8D8;
+    margin: 25px 0;
+}
+
+.price-card h3 {
+    margin-bottom: 15px;
+}
+
+.price-features {
+    list-style: none;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.price-features li {
+    padding: 10px 5px;
+    border-bottom: 1px solid #E7D8DC;
+}
+
+.price-features li::before {
+    content: "✓";
+    color: #91A88C;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.price-button {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.availability {
+    color: #91A88C;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* WHY SNAPPIX IS WORTH IT */
+
+.value-section {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #FFF8F8;
+}
+
+.value-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.value-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.value-card {
+    background-color: #DCE8D8;
+    padding: 30px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    margin-bottom: 12px;
+}
+
+.value-icon {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+/* PAYMENT INFORMATION */
+
+.payment-section {
+    background-color: #FFFFFF;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.payment-section h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.payment-content {
+    max-width: 650px;
+    margin: auto;
+    background-color: #FCEEF2;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 5px solid #91A88C;
+    text-align: left;
+}
+
+.payment-content p {
+    padding: 10px 5px;
+    border-bottom: 1px solid #E7D8DC;
+}
+
+/* PRICING FAQ */
+
+.pricing-faq {
+    padding: 60px 10%;
+    background-color: #FFF8F8;
+}
+
+.pricing-faq h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing-faq-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.pricing-faq-item {
+    background-color: #FFF0F3;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #91A88C;
+    border-radius: 8px;
+}
+
+.pricing-faq-item h3 {
+    margin-bottom: 8px;
+}
+
+/* PRICING BANNER */
+
+.pricing-banner {
+    background-color: #DCE8D8;
+    padding: 55px 10%;
+    text-align: center;
+}
+
+.pricing-banner h2 {
+    color: #52694D;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.pricing-banner p {
+    margin-bottom: 20px;
+}
+
+/* PRICING PAGE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    .pricing-hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 45px 6%;
+    }
+
+    .pricing-hero h1 {
+        font-size: 35px;
+    }
+
+    .value-container {
+        grid-template-columns: 1fr;
+    }
+
+    .price-card {
+        padding: 30px 20px;
+    }
+
+    .pricing-intro,
+    .pricing-faq {
+        padding: 40px 6%;
+    }
+
+    .payment-section {
+        padding: 40px 6%;
+    }
+
+    .pricing-banner {
+        padding: 40px 6%;
     }
 }
