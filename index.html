@@ -1,92 +1,225 @@
 
-<!--Sanaina Ahsan, 26I-3102, SE-B-->
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>SNAPPIX Mini | Home</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
-        <a href="index.html" class="logo">SNAPPIX <span>MINI</span></a>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
+    <!-- Navigation Bar -->
+    <header class="site-header">
+
+        <a href="index.html" class="brand">
+            <span class="brand-mark">S</span>
+            SNAPPIX <span class="brand-light">MINI</span>
+        </a>
+
+        <nav class="main-nav">
+            <a class="active" href="index.html">Home</a>
             <a href="features.html">Features</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
-</header>
+        </nav>
 
-<main>
+    </header>
+
+
+    <!-- Home Hero Section -->
     <section class="hero">
-        <div class="hero-text">
-            <p class="eyebrow">YOUR MEMORIES, IN YOUR HANDS</p>
-            <h1>Small prints.<br><span>Big memories.</span></h1>
 
-            <p>
-                Meet SNAPPIX Mini — the pocket-sized photo printer
-                that turns your favourite moments into little keepsakes
-                worth holding on to.
+        <div class="hero-content">
+
+            <p class="eyebrow">YOUR MEMORIES, PRINTED</p>
+
+            <h1>Small Prints.<br>Big Memories.</h1>
+
+            <p class="hero-description">
+                Meet SNAPPIX Mini, your portable photo printer
+                designed to turn your favourite digital moments
+                into beautiful printed memories.
             </p>
 
-            <button onclick="showMessage()">Pre-order now →</button>
-            <a href="#highlights" class="text-link">Discover more ↓</a>
+            <a href="features.html" class="button">
+                Explore Features →
+            </a>
+
         </div>
 
         <div class="hero-image">
+
             <img src="images/image.jpg"
                  alt="SNAPPIX Mini portable photo printer">
+
         </div>
+
     </section>
 
-    <section class="intro" id="highlights">
-        <p class="eyebrow">MEET YOUR NEW MEMORY-MAKER</p>
-        <h2>From your camera roll<br>to your <span>real-life wall.</span></h2>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+
+        <p class="eyebrow">MEMORIES MADE PRINTABLE</p>
+
+        <h2>Make Every Moment Last</h2>
+
         <p>
-            Bring your favourite photos to life.
-            SNAPPIX Mini makes printing simple, wireless and portable.
+            Your favourite memories deserve more than just a place
+            in your phone. SNAPPIX Mini makes it easy to print,
+            keep and share the moments that matter most.
         </p>
+
     </section>
 
-    <section class="features">
-        <div class="feature-card">
-            <h3>Wireless & Easy</h3>
-            <p>Connect through Bluetooth and print straight from your phone.</p>
+
+    <!-- Product Features Preview -->
+    <section class="preview-section">
+
+        <p class="eyebrow">WHY SNAPPIX MINI?</p>
+
+        <h2>Printing Made Simple</h2>
+
+        <div class="preview-container">
+
+            <div class="preview-card">
+
+                <span class="feature-symbol">♡</span>
+
+                <h3>Portable Design</h3>
+
+                <p>
+                    Small, lightweight and easy to carry anywhere.
+                </p>
+
+            </div>
+
+
+            <div class="preview-card">
+
+                <span class="feature-symbol">✦</span>
+
+                <h3>Bluetooth Connectivity</h3>
+
+                <p>
+                    Connect your device and print your pictures wirelessly.
+                </p>
+
+            </div>
+
+
+            <div class="preview-card">
+
+                <span class="feature-symbol">✧</span>
+
+                <h3>High-quality Photos</h3>
+
+                <p>
+                    Turn your digital pictures into lasting memories.
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="feature-card">
-            <h3>Made to Carry</h3>
-            <p>A compact design that goes wherever memories happen.</p>
-        </div>
+        <a href="features.html" class="button secondary-button">
+            View All Features
+        </a>
 
-        <div class="feature-card">
-            <h3>Keep It Forever</h3>
-            <p>Turn favourite moments into prints you can share and display.</p>
-        </div>
     </section>
 
-    <section class="bottom">
-        <h2>Ready to make memories tangible?</h2>
-        <button onclick="showMessage()">I'm interested →</button>
+
+    <!-- Product Specifications -->
+    <section class="specifications-section">
+
+        <p class="eyebrow">PRODUCT DETAILS</p>
+
+        <h2>Product Specifications</h2>
+
+        <table>
+
+            <tr>
+                <th>Specification</th>
+                <th>Details</th>
+            </tr>
+
+            <tr>
+                <td>Connectivity:</td>
+                <td>Bluetooth</td>
+            </tr>
+
+            <tr>
+                <td>Printing:</td>
+                <td>Wireless</td>
+            </tr>
+
+            <tr>
+                <td>Battery:</td>
+                <td>Rechargeable USB C</td>
+            </tr>
+
+            <tr>
+                <td>Size:</td>
+                <td>Pocket-sized</td>
+            </tr>
+
+        </table>
+
     </section>
-</main>
 
-<footer>
-    <p>SNAPPIX MINI | Small prints, big memories.</p>
-    <p>© 2026 SNAPPIX Mini</p>
-</footer>
 
-<script>
-    function showMessage() {
-        alert("Thank you for your interest in SNAPPIX Mini! Coming soon.");
-    }
-</script>
+    <!-- Coming Soon Section -->
+    <section class="coming-soon">
+
+        <p class="eyebrow">SOMETHING EXCITING IS COMING</p>
+
+        <h2>Coming Soon!</h2>
+
+        <p>
+            Get ready to print your favourite memories
+            with SNAPPIX Mini.
+        </p>
+
+        <button class="button" onclick="preOrder()">
+            PreOrder Now →
+        </button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <a href="index.html" class="brand footer-brand">
+            <span class="brand-mark">S</span>
+            SNAPPIX <span class="brand-light">MINI</span>
+        </a>
+
+        <p>
+            Small prints, big memories.
+            <span>© 2026 SNAPPIX Mini</span>
+        </p>
+
+        <a href="#" class="back-top">Back to Top ↑</a>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function preOrder() {
+
+            window.alert("SNAPPIX Mini is coming soon! Price: Rs. 8499");
+
+            console.log("SNAPPIX Mini PreOrder button clicked!");
+
+        }
+
+    </script>
+
 </body>
 </html>
