@@ -1,2 +1,2 @@
-# product-launch-page
-A website for the launching of snap it mini camera which is a portable mini printer for capturing memories.
+Sanaina Ahsan 26I-3102 SE-B Pages: Home Features Pricing Tools: ChatGPT https://i263102-coder.github.io/product-launch-page/
+
