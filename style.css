@@ -1,0 +1,76 @@
+<!--Sanaina Ahsan, 26I-3102,SE-B-->
+body {
+    background-color: #FFF8F8;
+    font-family: 'Poppins', Arial;
+    text-align: center;
+    color: #444444;
+}
+
+/* Main heading */
+h1 {
+    color: #D98FA8;
+    font-size: 40px;
+}
+
+/* Subheadings */
+h2 {
+    color: #91A88C;
+}
+
+h3 {
+    color: #D98FA8;
+}
+
+
+img {
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/* Features */
+ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+}
+
+/* Specifications table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid #A5B99D;
+    padding: 12px;
+}
+
+th {
+    background-color: #DCE8D8;
+    color: #52694D;
+}
+
+td {
+    background-color: #FFF0F3;
+}
+
+/* Button */
+button {
+    background-color: #D98FA8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', Arial;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #91A88C;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+}
